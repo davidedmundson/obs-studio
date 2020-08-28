@@ -62,7 +62,7 @@ static const EGLint ctx_config_attribs[] = {EGL_STENCIL_SIZE,
 					    EGL_ALPHA_SIZE,
 					    8,
 					    EGL_RENDERABLE_TYPE,
-					    EGL_OPENGL_BIT,
+					    EGL_OPENGL_ES2_BIT,
 					    EGL_SURFACE_TYPE,
 					    EGL_WINDOW_BIT | EGL_PBUFFER_BIT,
 					    EGL_NONE};

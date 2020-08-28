@@ -27,7 +27,7 @@
 static const EGLint config_attribs[] = {EGL_SURFACE_TYPE,
 					EGL_WINDOW_BIT,
 					EGL_RENDERABLE_TYPE,
-					EGL_OPENGL_BIT,
+					EGL_OPENGL_ES2_BIT,
 					EGL_STENCIL_SIZE,
 					0,
 					EGL_DEPTH_SIZE,
